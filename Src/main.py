@@ -261,9 +261,9 @@ def get_cgst():
 
 
 def tax_update(a, b, c):
-    sgst_var.set(round(get_sgst() * (Amt_var.get() / 100),2))
-    cgst_var.set(round(get_cgst() * (Amt_var.get() / 100),2))
-    subtol_var.set(round(sgst_var.get() + cgst_var.get() + Amt_var.get(),2))
+    sgst_var.set(round(get_sgst() * (Amt_var.get() / 100), 2))
+    cgst_var.set(round(get_cgst() * (Amt_var.get() / 100), 2))
+    subtol_var.set(round(sgst_var.get() + cgst_var.get() + Amt_var.get(), 2))
     entry20.delete(0, END)
     entry20.insert(0, str(subtol_var.get()))
     Discount_var.set(0.0)
