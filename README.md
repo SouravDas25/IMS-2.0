@@ -45,3 +45,6 @@ Inventory Management System 2.0
 #### Category Page
 ![Category Page](./images/cl.png)
 
+#### Invoice Generated
+![Invoice Generated](./images/invoice.png)
+
